@@ -66,18 +66,37 @@ To test the REST API, you may use **Postman** or any tool that you prefer. ⭐�
 | :--- | :--- | :--- |
 | `/login` | `POST` | ```{ "username": "cardo","password": "cardo" }``` |
 
+#### Response
+
+ ```
+ {
+    "user": {
+        "username": "cardo",
+        "firstName": "Cardo123",
+        "lastName": "Dalisay",
+        "dateAdded": "2023-12-20T10:31:28.224Z",
+        "id": 4
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJjYXJkbyIsImlhdCI6MTcwMzA3MjU0NywiZXhwIjoxNzAzMDc2MTQ3fQ.PuPFfapTRYM5K986BfEdjlyJHqILD4o0ojq50yHmJeo"
+}
+```
+
 
 
 ## User Management ⭐️
 :exclamation::exclamation: **BASE URL :** `http://localhost:3001/api/user`
 
+```
+🚀 Prerequisite: You need to login to have a token and use it in your request header
+```
+
 #### Request
-| Endpoint | Method | Body/Parameter |
-| :--- | :--- | :--- |
-| `/create` | `POST` | `{"username":"cardo","firstName":"Cardo","lastName":"Dalisay","password":"cardo"}` |
-| `/list` | `GET` |  |
-| `/update/:id` | `PUT` | `1` <br> `{"firstName":"John"}` |
-| `/delete/:id` | `DELETE` | ```1``` |
+| Endpoint | Method | Header | Body/Parameter |
+| :--- | :--- | :--- | :--- |
+| `/create` | `POST` | `Bearer <paste_your_token>` | `{"username":"cardo","firstName":"Cardo","lastName":"Dalisay","password":"cardo"}` |
+| `/list` | `GET` | `Bearer <paste_your_token>` |  |
+| `/update/:id` | `PUT` | `Bearer <paste_your_token>` | `1` <br> `{"firstName":"John"}` |
+| `/delete/:id` | `DELETE` | `Bearer <paste_your_token>` | ```1``` |
 
 
 <hr>
