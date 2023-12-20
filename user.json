@@ -1,0 +1,34 @@
+[
+  {
+    "username": "1",
+    "firstName": "1",
+    "lastName": "1",
+    "password": "$2b$12$xhtMA/klnkYvDk/bQsag3.4EUDftQY8/uK6U0gkRR7Fc0639onkXy",
+    "dateAdded": "2023-12-20T09:34:08.475Z",
+    "id": 1
+  },
+  {
+    "username": "3",
+    "firstName": "3",
+    "lastName": "3",
+    "password": "$2b$12$ZPaFaxtlHnWffJV/Ol1eX.nKjGBAbrAc0ptbhYPsMXxh7rEBbiAy2",
+    "dateAdded": "2023-12-20T09:35:36.884Z",
+    "id": 2
+  },
+  {
+    "username": "2",
+    "firstName": "2",
+    "lastName": "2",
+    "password": "$2b$12$2duTaqrFH62ErhA6BJkGF.03j3JU/O8nXHMdNjM0j12pQYvu.fEFS",
+    "dateAdded": "2023-12-20T09:35:44.174Z",
+    "id": 3
+  },
+  {
+    "username": "cardo",
+    "firstName": "Cardo123",
+    "lastName": "Dalisay",
+    "password": "$2b$12$susah6tFyPKYpzIaa2W6muxExe1GqNEJ73NSiTD1dXoBcYvPtscLG",
+    "dateAdded": "2023-12-20T10:31:28.224Z",
+    "id": 4
+  }
+]
