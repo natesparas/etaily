@@ -11,6 +11,8 @@
 # Getting started
 
 ```
+🚀 Prerequisite: Node >= 16.*
+
 This application has 2 servers
     1. Signin and JWT Validation
     2. User Management
