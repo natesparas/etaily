@@ -22,11 +22,9 @@ This application has 2 servers
    2. ***Github*** - Code Repository
    3. ***VSCode*** - Text Editor
    4. ***Postman*** - API Testing
-<br>
 2. Backend
    1. ***ExpressJS*** - Node
    2. ***JWT*** - Authentication
-<br>
 3. Database
    1. ***JSON FILE***
 
