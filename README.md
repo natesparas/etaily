@@ -8,25 +8,6 @@
 
 <hr>
 
-# Getting Started
-```
-🚀 This application 
-```
-
-
-1. Login
-   1. *JWT*
-2. Registration
-3. Dashboard (_Graph not YET working_)
-4. Customer
-   1. *List*
-   2. *Add*
-   3. *Edit*
-   4. *Delete*
-5. Logout
-
-<hr>
-
 # Getting started
 
 ```
