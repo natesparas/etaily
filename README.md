@@ -44,12 +44,14 @@ cd etaily
 #### Step 2: Run the 1st server
 ```bash
 cd crud-server
+npm i
 cd npm start
 ```
 
 #### Step 3: Run the 2nd server
 ```bash
 cd jwt-server
+npm i
 cd npm start
 ```
 
