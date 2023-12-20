@@ -18,6 +18,26 @@ const hashPassword = (password) => {
     })
 }
 
+const checkDuplicate = (username, users) => {
+
+    if (users.length > 0) {
+
+        users = JSON.parse(users)
+        const exist = users.find(item => item.username.toLowerCase() === username.toLowerCase())
+
+        if (exist) {
+            return true
+        } else {
+            return false
+        }
+
+    } else {
+        return false
+    }
+
+}
+
 module.exports = {
-    hashPassword
+    hashPassword,
+    checkDuplicate
 }

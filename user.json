@@ -30,5 +30,13 @@
     "password": "$2b$12$susah6tFyPKYpzIaa2W6muxExe1GqNEJ73NSiTD1dXoBcYvPtscLG",
     "dateAdded": "2023-12-20T10:31:28.224Z",
     "id": 4
+  },
+  {
+    "username": "Cardo123",
+    "firstName": "Cardo",
+    "lastName": "Dalisay",
+    "password": "$2b$12$tcPkq7u4.rjfXHVVnj8ez.vjqXgFLwS1dia9VnzemlNwusmPXTKs2",
+    "dateAdded": "2023-12-20T11:25:30.543Z",
+    "id": 5
   }
 ]

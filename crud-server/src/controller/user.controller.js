@@ -1,6 +1,6 @@
 const fs = require('fs/promises');
 // let users = require('../../../user.json');
-const { hashPassword } = require('../utils/jwt');
+const { hashPassword, checkDuplicate } = require('../utils/jwt');
 
 const filePath = '../user.json';
 
@@ -21,6 +21,11 @@ const createUser = async (req, res) => {
             password: hashedPassword,
             dateAdded,
         };
+
+        const hasDuplicate = checkDuplicate(username, users)
+        if (hasDuplicate) {
+            return res.status(401).json({ message: 'Username already exist' });
+        }
 
         if (users.length > 0) {
             users = JSON.parse(users)
